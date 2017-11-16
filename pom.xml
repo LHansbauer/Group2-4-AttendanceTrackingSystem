@@ -6,7 +6,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <groupId>com.example.guestbook</groupId>
-    <artifactId>guestbook</artifactId>
+    <artifactId>group2-4attendance</artifactId>
 
 <!-- [START set_versions] -->
     <properties>
