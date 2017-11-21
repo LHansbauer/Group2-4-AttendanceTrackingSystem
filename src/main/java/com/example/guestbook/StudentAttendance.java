@@ -1,7 +1,9 @@
 package com.example.guestbook;
 
 public class StudentAttendance {
-
-	Boolean present;
+	Student student;
+	boolean present;
+	Group group;
+	String timeAndDate;
 	
 }
