@@ -1,9 +1,14 @@
 package com.example.guestbook;
 
+import com.googlecode.objectify.annotation.Entity;
+import com.googlecode.objectify.annotation.Id;
+
 import java.util.ArrayList;
 
+@Entity
 public class Student extends Person {
-	Integer matrikelNummer;
+	Id id;
+	String matrikelNumber;
 	ArrayList<StudentAttendance> attendances = new ArrayList<>();
 	
 	public Student(String name) {
@@ -18,6 +23,7 @@ public class Student extends Person {
 			
 			
 		}
+	return null;
 	}
 	
 }

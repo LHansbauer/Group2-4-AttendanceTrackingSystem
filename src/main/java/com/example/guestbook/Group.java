@@ -1,10 +1,11 @@
 package com.example.guestbook;
 
+import java.util.ArrayList;
+
 public class Group {
 	String name;
 	Tutor tutor;
-	String startOfCourse;
-	String endOfCourse;
+	ArrayList<Event> scheduledClasses;
 	
 	// Descriptive fields
 	String location;
